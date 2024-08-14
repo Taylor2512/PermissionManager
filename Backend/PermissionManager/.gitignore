@@ -1,0 +1,38 @@
+# Ignorar archivos y carpetas generados por Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar archivos de respaldo
+*~
+
+# Ignorar archivos de configuración local
+appsettings.Development.json
+appsettings.Production.json
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de caché
+*.cache
+
+# Ignorar archivos de compilación
+*.dll
+*.exe
+*.pdb
+
+# Ignorar archivos de publicación
+publish/
+
+# Ignorar archivos de paquetes NuGet
+*.nupkg
+
+# Ignorar archivos de dependencias
+packages/
+
+# Ignorar archivos de pruebas
+TestResults/
+
+# Ignorar archivos de análisis de código
+*.opencover.xml
+*.coverage

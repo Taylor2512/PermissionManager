@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xCyTqVHe+PNnzSu9LmsAH76/u9PAxg9ZTegDsKf3P6c=",
+  "Source": "PermissionManager.API",
+  "BasePath": "_content/PermissionManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
