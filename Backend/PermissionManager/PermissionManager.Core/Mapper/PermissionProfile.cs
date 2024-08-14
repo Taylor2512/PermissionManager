@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+
+using PermissionManager.Core.Models;
+using PermissionManager.Core.Services.Dtos;
+using PermissionManager.Core.Services.Request;
 
 namespace PermissionManager.Core.Mapper
 {
-    internal class PermissionProfile
+    public class PermissionProfile : Profile
     {
+        public PermissionProfile()
+        {
+            CreateMap<Permission, PermissionDto>()
+                .ForMember(e => e.PermissionTypeName, y => y.MapFrom(y => y.PermissionType.Name))
+                .ReverseMap();
+            CreateMap<Permission, PermissionRequest>().ReverseMap();
+            CreateMap<PermissionRequest, PermissionDto>().ReverseMap();
+            CreateMap<PermissionType, PermissionTypeRequest>().ReverseMap();
+        }
     }
 }

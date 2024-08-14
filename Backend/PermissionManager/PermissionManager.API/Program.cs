@@ -1,4 +1,5 @@
 using PermissionManager.API.Extensions;
+using PermissionManager.Core.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 Configurations.ConfigureServices(builder.Services, builder.Configuration);
+MapperConfiguration.ConfigurationMapper(builder.Services);
 
 var app = builder.Build();
 
@@ -20,6 +22,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(options =>
+{
+    options.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod();
+}); // Add this line to allow all origins
 
 app.UseAuthorization();
 

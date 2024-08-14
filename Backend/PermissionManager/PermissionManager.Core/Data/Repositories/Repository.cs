@@ -24,6 +24,23 @@ namespace PermissionManager.Core.Data.Repositories
         {
             return await _context.Set<T>().ToListAsync();
         }
+        public async Task<IEnumerable<T>> GetWithIncludeAsync(
+           Expression<Func<T, bool>> predicate= null,
+           params Expression<Func<T, object>>[] includes)
+        {
+            IQueryable<T> query = _context.Set<T>();
+
+            if (includes != null)
+            {
+                query = includes.Aggregate(query, (current, include) => current.Include(include));
+            }
+            if (predicate != null)
+            {
+                query= query.Where(predicate);
+            }
+
+            return await query.ToListAsync();
+        }
 
         public async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)
         {

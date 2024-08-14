@@ -5,7 +5,7 @@ const GetPermissions = () => {
     const [permissions, setPermissions] = useState([]);
 
     useEffect(() => {
-        api.get('/permissions')
+        api.get('/Permissions')
             .then(response => {
                 setPermissions(response.data);
             })
@@ -33,7 +33,7 @@ const GetPermissions = () => {
                             <td>{permission.id}</td>
                             <td>{permission.firstName}</td>
                             <td>{permission.lastName}</td>
-                            <td>{permission.permissionType.description}</td>
+                            <td>{permission.permissionTypeName}</td>
                             <td>{permission.permissionDate}</td>
                         </tr>
                     ))}

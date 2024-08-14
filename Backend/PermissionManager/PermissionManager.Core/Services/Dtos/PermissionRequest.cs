@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PermissionManager.Core.Services.Dtos
+﻿namespace PermissionManager.Core.Services.Dtos
 {
-    public class PermissionRequest
+    public record PermissionRequest
     {
+        public required string FirstName { get; set; }
+
+        public required string LastName { get; set; }
+
+        public required int PermissionTypeId { get; set; }
+
     }
 }

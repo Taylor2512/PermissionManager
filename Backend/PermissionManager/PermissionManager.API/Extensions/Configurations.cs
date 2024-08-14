@@ -17,7 +17,9 @@ namespace PermissionManager.API.Extensions
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-            var client = new  ElasticsearchClient();
+
+            var client = new ElasticsearchClient(new ElasticsearchClientSettings(new Uri("http://localhost:9200"))
+                .DefaultIndex("permissions"));  // Aquí defines el índice predeterminado
 
             services.AddSingleton(client);
 

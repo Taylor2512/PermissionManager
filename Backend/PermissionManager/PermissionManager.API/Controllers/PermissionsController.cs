@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PermissionManager.Core.Interfaces;
 using PermissionManager.Core.Models;
+using PermissionManager.Core.Services.Dtos;
 
 namespace PermissionManager.API.Controllers
 {
@@ -17,16 +18,16 @@ namespace PermissionManager.API.Controllers
         }
 
         [HttpPost("request")]
-        public async Task<IActionResult> RequestPermission(Permission permission)
+        public async Task<IActionResult> RequestPermission(PermissionRequest permission)
         {
             await _permissionService.RequestPermissionAsync(permission);
             return Ok(permission);
         }
 
-        [HttpPut("modify")]
-        public async Task<IActionResult> ModifyPermission(Permission permission)
+        [HttpPut("modify/{id}")]
+        public async Task<IActionResult> ModifyPermission(int id,PermissionRequest permission)
         {
-            await _permissionService.ModifyPermissionAsync(permission);
+            await _permissionService.ModifyPermissionAsync(id,permission);
             return Ok(permission);
         }
 

@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PermissionManager.Core.Services.Dtos
+﻿namespace PermissionManager.Core.Services.Dtos
 {
-    internal class PermissionDto
+    public record PermissionDto
     {
+        public int Id { get; set; }
+
+        public required string FirstName { get; set; }
+
+        public required string LastName { get; set; }
+
+        public required string PermissionTypeName { get; set; }
+
+        public DateOnly PermissionDate { get; set; }
     }
 }
