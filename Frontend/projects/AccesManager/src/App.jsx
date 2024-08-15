@@ -1,15 +1,11 @@
 
 import './App.css'
-import RequestPermission from './components/RequestPermission';
-import ModifyPermission from './components/ModifyPermission';
-import GetPermissions from './components/GetPermissions';
+import Permissions from './components/permisions/Permissions';
 function App() {
 
   return (
     <div className="App">
-        <RequestPermission />
-        <ModifyPermission />
-        <GetPermissions />
+        <Permissions />
     </div>
 );
   // return (

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PermissionManager.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+099426b7143d6f94cffe0c3835eb5eed587279e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e15a6cce8df6eee09e4af2ce432d36e75aebe95c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PermissionManager.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PermissionManager.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

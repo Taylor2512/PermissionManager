@@ -1,99 +1,93 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "../node_modules/primereact/resources/themes/saga-blue/theme.css";
+              
+@import "../node_modules/primeicons/primeicons.css";
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import "../node_modules/primereact/resources/primereact.min.css";   
 
 
-form {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
   background-color: #f9f9f9;
 }
 
-form div {
-  margin-bottom: 15px;
+.permissions-page h1{
+  margin: 20px auto;
+  text-align: center;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
+.permissions-page h3{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.permissions-page .permissions-list{
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.permissions-page .permissions-list table .btn{
+  margin: 0 5px;
+}
+
+.permissions-page .addNewPermission{
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.permissions-page .addNewPermission .btn i{
+  padding: 0 10px;
+}
+
+.permission-view h1{
+  margin: 0;
+  margin-bottom: 20px;
+  color:#333;
+  font-size: 22px;
   font-weight: bold;
 }
 
-input[type="text"],
-input[type="date"],
-select {
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
+.permission-view .box{
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+.permission-view p{
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
+.permission-view p span{
+  display: inline-block;
+  min-width: 130px;
 }
 
-table, th, td {
-  border: 1px solid black;
+.permission-view p span:first-child{
+  color:#6c757d;
 }
 
-th, td {
-  padding: 10px;
-  text-align: left;
+.permission-view p span:last-child{
+  color:#333;
+  font-weight: bold;
+}
+
+._add-view p{
+  border-bottom: none;
+}
+
+._add-view p input{
+  margin: 5px 0;
+  font-size: 14px;
 }

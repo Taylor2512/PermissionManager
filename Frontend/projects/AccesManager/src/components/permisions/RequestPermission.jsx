@@ -1,9 +1,7 @@
-import { useState, useEffect } from 'react';
-import api from '../services/api';
+import  { useState, useEffect } from 'react';
+import api from '../../services/api';
 
-const ModifyPermission = () => {
-    const [permissions, setPermissions] = useState([]);
-    const [selectedPermissionId, setSelectedPermissionId] = useState('');
+const RequestPermission = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [permissionTypeId, setPermissionTypeId] = useState('');
@@ -11,14 +9,6 @@ const ModifyPermission = () => {
     const [permissionTypes, setPermissionTypes] = useState([]);
 
     useEffect(() => {
-        api.get('/permissions')
-            .then(response => {
-                setPermissions(response.data);
-            })
-            .catch(error => {
-                console.error('Error fetching permissions:', error);
-            });
-
         api.get('/permissiontypes')
             .then(response => {
                 setPermissionTypes(response.data);
@@ -28,54 +18,33 @@ const ModifyPermission = () => {
             });
     }, []);
 
-    const handleSelectChange = (e) => {
-        const selectedPermission = permissions.find(permission => permission.id === parseInt(e.target.value));
-        setSelectedPermissionId(selectedPermission.id);
-        setFirstName(selectedPermission.firstName);
-        setLastName(selectedPermission.lastName);
-        setPermissionTypeId(selectedPermission.permissionTypeId);
-        setPermissionDate(selectedPermission.permissionDate);
-    };
-
     const handleSubmit = (e) => {
         e.preventDefault();
-        const updatedPermission = {
+        const newPermission = {
             firstName,
             lastName,
             permissionTypeId: parseInt(permissionTypeId),
             permissionDate,
         };
 
-        api.put(`/permissions/${selectedPermissionId}`, updatedPermission)
+        api.post('/permissions', newPermission)
             .then(() => {
-                alert('Permission modified successfully');
+                alert('Permission requested successfully');
                 // Clear form
-                setSelectedPermissionId('');
                 setFirstName('');
                 setLastName('');
                 setPermissionTypeId('');
                 setPermissionDate('');
             })
             .catch(error => {
-                console.error('Error modifying permission:', error);
+                console.error('Error requesting permission:', error);
             });
     };
 
     return (
         <div>
-            <h2>Modify Permission</h2>
+            <h2>Request Permission</h2>
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Select Permission:</label>
-                    <select value={selectedPermissionId} onChange={handleSelectChange} required>
-                        <option value="">Select a permission</option>
-                        {permissions.map(permission => (
-                            <option key={permission.id} value={permission.id}>
-                                {permission.firstName} {permission.lastName} - {permission.permissionDate}
-                            </option>
-                        ))}
-                    </select>
-                </div>
                 <div>
                     <label>First Name:</label>
                     <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
@@ -97,10 +66,10 @@ const ModifyPermission = () => {
                     <label>Permission Date:</label>
                     <input type="date" value={permissionDate} onChange={(e) => setPermissionDate(e.target.value)} required />
                 </div>
-                <button type="submit">Modify Permission</button>
+                <button type="submit">Request Permission</button>
             </form>
         </div>
     );
 };
 
-export default ModifyPermission;
+export default RequestPermission;

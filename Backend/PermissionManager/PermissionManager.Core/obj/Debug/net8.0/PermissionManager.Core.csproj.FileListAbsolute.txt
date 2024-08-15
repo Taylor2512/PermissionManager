@@ -26,3 +26,5 @@ C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\o
 C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\ref\PermissionManager.Core.dll
 C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Core.runtimeconfig.json
 C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\PermissionManager.Core.genruntimeconfig.cache
+C:\TrabajosScharp\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Core.runtimeconfig.json
+C:\TrabajosScharp\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\PermissionManager.Core.genruntimeconfig.cache
