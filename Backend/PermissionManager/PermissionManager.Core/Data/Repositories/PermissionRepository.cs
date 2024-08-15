@@ -1,6 +1,4 @@
-﻿using Elastic.Clients.Elasticsearch;
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 using PermissionManager.Core.Models;
 
@@ -19,11 +17,12 @@ namespace PermissionManager.Core.Data.Repositories
                 .ToListAsync();
         }
 
-        public async Task<Permission> GetPermissionWithTypeAsync(int id)
+        public async Task<Permission?> GetByIWithTypesdAsync(int id)
         {
             return await _context.Permissions
-                .Include(p => p.PermissionType)
-                .SingleOrDefaultAsync(p => p.Id == id);
+           .Include(p => p.PermissionType)
+           .Where(e => e.Id == id)
+               .FirstOrDefaultAsync();
         }
     }
 }

@@ -1,6 +1,8 @@
 using PermissionManager.API.Extensions;
 using PermissionManager.Core.Mapper;
 
+using System.Text.Json;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 Configurations.ConfigureServices(builder.Services, builder.Configuration);
 MapperConfiguration.ConfigurationMapper(builder.Services);
+
 
 var app = builder.Build();
 
@@ -29,6 +32,7 @@ app.UseCors(options =>
 }); // Add this line to allow all origins
 
 app.UseAuthorization();
+
 
 app.MapControllers();
 

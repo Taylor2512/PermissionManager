@@ -1,271 +1,124 @@
-import  { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import api from '../../services/api';
+import { AutoComplete } from 'primereact/autocomplete';
 
 const initialPermissionInfo = {
-    id: '',
-    name: '',
-    permissionname: '',
-    email: '',
-    phone: '',
-    website: '',
-    address: {
-        city: '',
-        street: '',
-        suite: '',
-        zipcode: ''
-    },
-    company: {
-        name: '',
-        catchPhrase: '',
-        bs: ''
-    }
-}
+    firstName: '',
+    lastName: '',
+    permissionTypeId: ''
+};
 
-function EditPermission(props) {
+function EditPermission({ Id, setPermissionEdited }) {
     const [permissionInfo, setPermissionInfo] = useState(initialPermissionInfo);
+    const [permissionTypes, setPermissionTypes] = useState([]);
+    const [filteredPermissionTypes, setFilteredPermissionTypes] = useState([]);
+    const [permissionTypeId, setPermissionTypeId] = useState('');
 
     useEffect(() => {
-        setPermissionInfo({ ...permissionInfo,id: props.Id})
         fetchPermissionData();
+        fetchPermissionTypes();
     }, []);
 
     const fetchPermissionData = async () => {
         try {
-            const response = await api.get('/permissions/' + props.Id);
+            const response = await api.get('/permissions/' + Id);
             if (response) {
-                console.log(response)
-                setPermissionInfo(response.data);
+                const permission = response.data;
+                setPermissionInfo({
+                    firstName: permission.firstName,
+                    lastName: permission.lastName,
+                    permissionTypeId: permission.permissionType?.id || ''
+                });
+                setPermissionTypeId(permission.permissionType?.name || '');
             }
-            return
+        } catch (e) {
+            console.log(e);
         }
-        catch (e) {
-            console.log(e)
+    };
+
+    const fetchPermissionTypes = async () => {
+        try {
+            const response = await api.get('/permissiontypes');
+            if (response) {
+                setPermissionTypes(response.data);
+            }
+        } catch (error) {
+            console.error('Error fetching permission types:', error);
         }
-    }
+    };
+
+    const search = (event) => {
+        const keyword = event.query.toLowerCase();
+        const filtered = permissionTypes.filter((type) =>
+            type.name.toLowerCase().includes(keyword)
+        );
+        setFilteredPermissionTypes(filtered);
+    };
 
     const editExistPermission = async () => {
         try {
-            const response = await api.put('/permissions/' + props.Id, permissionInfo);
+            const response = await api.put('/permissions/' + Id, permissionInfo);
             if (response) {
-                props.setPermissionEdited();
+                setPermissionEdited();
             }
+        } catch (e) {
+            console.log(e);
         }
-        catch (e) {
-            console.log(e)
-        }
-    }
-
+    };
 
     return (
-        <div className='permission-view _add-view'>
-            <h1>Basic Info</h1>
-            <div className='box'>
+        <div className='permission-view _edit-view' style={{ margin: '20px' }}>
+            <div className='box sm-3'>
                 <div className='row'>
                     <div className='col-sm-12 col-md-6'>
                         <p>
-                            <span>Full Name:</span>
+                            <span>First Name:</span>
                             <input
                                 type='text'
                                 className='form-control'
-                                placeholder='Enter Full Name'
-                                value={permissionInfo.name}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, name: e.target.value })}
+                                placeholder='Enter First Name'
+                                value={permissionInfo.firstName}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, firstName: e.target.value })}
+                                style={{ margin: '10px' }}
                             />
                         </p>
                     </div>
                     <div className='col-sm-12 col-md-6'>
                         <p>
-                            <span>Permissionname:</span>
+                            <span>Last Name:</span>
                             <input
                                 type='text'
                                 className='form-control'
-                                placeholder='Enter Permissionname'
-                                value={permissionInfo.permissionname}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, permissionname: e.target.value })}
+                                placeholder='Enter Last Name'
+                                value={permissionInfo.lastName}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, lastName: e.target.value })}
+                                style={{ margin: '10px' }}
                             />
                         </p>
                     </div>
                     <div className='col-sm-12 col-md-6'>
                         <p>
-                            <span>Email Address:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Email Address'
-                                value={permissionInfo.email}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, email: e.target.value })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Phone Number:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Phone Number'
-                                value={permissionInfo.phone}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, phone: e.target.value })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Website:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Website'
-                                value={permissionInfo.website}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, website: e.target.value })}
-                            />
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <h1>Permission Address</h1>
-            <div className='box'>
-                <div className='row'>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>City:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter City Name'
-                                value={permissionInfo.address.city}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    address: {
-                                        ...permissionInfo.address,
-                                        city: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Street:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Street Name'
-                                value={permissionInfo.address.street}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    address: {
-                                        ...permissionInfo.address,
-                                        street: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Suite:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Suite Name'
-                                value={permissionInfo.address.suite}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    address: {
-                                        ...permissionInfo.address,
-                                        suite: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>ZIP Code:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter ZIP Code'
-                                value={permissionInfo.address.zipcode}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    address: {
-                                        ...permissionInfo.address,
-                                        zipcode: e.target.value
-                                    }
-                                })}
+                            <span>Permission Type:</span>
+                            <AutoComplete
+                                value={permissionTypeId}
+                                suggestions={filteredPermissionTypes}
+                                completeMethod={search}
+                                field="name"
+                                onChange={(e) => {
+                                    const selectedType = e.value;
+                                    setPermissionTypeId(selectedType.name);
+                                    setPermissionInfo({ ...permissionInfo, permissionTypeId: selectedType.id });
+                                }}
+                                forceSelection
+                                style={{ margin: '10px', width: '100%' }}
                             />
                         </p>
                     </div>
                 </div>
             </div>
-
-            <h1>Permission Company</h1>
-            <div className='box'>
-                <div className='row'>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Company Name:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Company Name'
-                                value={permissionInfo.company.name}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    company: {
-                                        ...permissionInfo.company,
-                                        name: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>Catch Phrase:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter Catch Phrase'
-                                value={permissionInfo.company.catchPhrase}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    company: {
-                                        ...permissionInfo.company,
-                                        catchPhrase: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                    <div className='col-sm-12 col-md-6'>
-                        <p>
-                            <span>BS:</span>
-                            <input
-                                type='text'
-                                className='form-control'
-                                placeholder='Enter BS'
-                                value={permissionInfo.company.bs}
-                                onChange={e => setPermissionInfo({
-                                    ...permissionInfo,
-                                    company: {
-                                        ...permissionInfo.company,
-                                        bs: e.target.value
-                                    }
-                                })}
-                            />
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <button className='btn btn-success' onClick={() => editExistPermission()}>Edit Permission</button>
+            <button className='btn btn-success' onClick={editExistPermission} style={{ margin: '10px' }}>Submit</button>
         </div>
-    )
+    );
 }
 
-export default EditPermission
+export default EditPermission;

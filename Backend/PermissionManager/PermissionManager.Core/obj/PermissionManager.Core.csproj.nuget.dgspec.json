@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {}
+    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {}
   },
   "projects": {
-    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
+    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
+        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
         "projectName": "PermissionManager.Core",
-        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
-        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
-        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\obj\\",
+        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
+        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
+        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +52,10 @@
             "Elastic.Clients.Elasticsearch": {
               "target": "Package",
               "version": "[8.15.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -91,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

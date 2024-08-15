@@ -1,56 +1,44 @@
-﻿using AutoMapper;
+﻿using MediatR;
 
-using Elastic.Clients.Elasticsearch;
-
-using PermissionManager.Core.Data.UnitOfWork;
+using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
 using PermissionManager.Core.Interfaces;
-using PermissionManager.Core.Models;
 using PermissionManager.Core.Services.Dtos;
+using PermissionManager.Core.Services.Request;
 
 namespace PermissionManager.Core.Services
 {
     public class PermissionService : IPermissionService
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly ElasticsearchClient _elasticClient;
-        private readonly IMapper _mapper;
+        private readonly IMediator _mediator;
 
-        public PermissionService(IUnitOfWork unitOfWork, ElasticsearchClient elasticClient, IMapper mapper)
+        public PermissionService(IMediator mediator)
         {
-            _unitOfWork = unitOfWork;
-            _elasticClient = elasticClient;
-            _mapper = mapper;
+            _mediator = mediator;
         }
 
-        public async Task RequestPermissionAsync(PermissionRequest request)
+        public Task RequestPermissionAsync(PermissionRequest request)
         {
-            var permission = _mapper.Map<Permission>(request);
-            _unitOfWork.Permissions.Add(permission);
-            await _unitOfWork.CompleteAsync();
-            await IndexPermissionInElasticSearch(permission);
+            return _mediator.Send(new RequestPermissionCommand(request));
         }
 
-        public async Task ModifyPermissionAsync( int id, PermissionRequest request)
+        public Task ModifyPermissionAsync(int id, PermissionRequest request)
         {
-            var existingPermission = await _unitOfWork.Permissions.GetByIdAsync(id);
-            if (existingPermission != null)
-
-            {
-                var existingPermissionpath = _mapper.Map(request,existingPermission);
-                await _unitOfWork.CompleteAsync();
-                await IndexPermissionInElasticSearch(existingPermissionpath);
-            }
+            return _mediator.Send(new ModifyPermissionCommand(id, request));
         }
 
-        public async Task<IEnumerable<PermissionDto>> GetPermissionsAsync()
+        public Task<IEnumerable<PermissionDto>> GetPermissionsAsync()
         {
-            var permissions = await _unitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync();
-            return _mapper.Map<IEnumerable<PermissionDto>>(permissions);
+            return _mediator.Send(new GetPermissionsQuery());
         }
 
-        private async Task IndexPermissionInElasticSearch(Permission permission)
+        public Task<PermissionDto> GetPermissionByIdAsync(int id)
         {
-           await _elasticClient.IndexAsync(permission, idx => idx.Index("permissions"));
+            return _mediator.Send(new GetPermissionByIdQuery(id));
+        }
+
+        public Task DeletePermissionAsync(int id)
+        {
+            return _mediator.Send(new DeletePermissionCommand(id));
         }
     }
 }

@@ -16,6 +16,8 @@ namespace PermissionManager.Core.Mapper
             CreateMap<Permission, PermissionRequest>().ReverseMap();
             CreateMap<PermissionRequest, PermissionDto>().ReverseMap();
             CreateMap<PermissionType, PermissionTypeRequest>().ReverseMap();
+            CreateMap<PermissionType, PermissionTypeDto>().ReverseMap();
+            CreateMap<PermissionTypeRequest, PermissionTypeDto>().ReverseMap();
         }
     }
 }

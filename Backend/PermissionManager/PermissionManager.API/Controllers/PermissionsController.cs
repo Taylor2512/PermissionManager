@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
 using PermissionManager.Core.Interfaces;
 using PermissionManager.Core.Models;
-using PermissionManager.Core.Services.Dtos;
+using PermissionManager.Core.Services.Request;
 
 namespace PermissionManager.API.Controllers
 {
@@ -17,17 +18,17 @@ namespace PermissionManager.API.Controllers
             _permissionService = permissionService;
         }
 
-        [HttpPost("request")]
+        [HttpPost]
         public async Task<IActionResult> RequestPermission(PermissionRequest permission)
         {
             await _permissionService.RequestPermissionAsync(permission);
-            return Ok(permission);
+            return Created();
         }
 
-        [HttpPut("modify/{id}")]
-        public async Task<IActionResult> ModifyPermission(int id,PermissionRequest permission)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> ModifyPermission(int id, PermissionRequest permission)
         {
-            await _permissionService.ModifyPermissionAsync(id,permission);
+            await _permissionService.ModifyPermissionAsync(id, permission);
             return Ok(permission);
         }
 
@@ -36,6 +37,20 @@ namespace PermissionManager.API.Controllers
         {
             var permissions = await _permissionService.GetPermissionsAsync();
             return Ok(permissions);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetPermissionsById(int id)
+        {
+            var permissions = await _permissionService.GetPermissionByIdAsync(id);
+            return Ok(permissions);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePermissionAsync(int id)
+        {
+            await _permissionService.DeletePermissionAsync(id);
+            return NoContent();
         }
     }
 }

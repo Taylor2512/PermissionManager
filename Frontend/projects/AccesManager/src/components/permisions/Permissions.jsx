@@ -3,12 +3,12 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 
 import { Dialog } from 'primereact/dialog';
-import { ConfirmDialog } from 'primereact/confirmdialog';
-import { confirmDialog } from 'primereact/confirmdialog';
+import { ConfirmDialog, confirmDialog } from 'primereact/confirmdialog';
 import ViewPermission from './_viewPermission';
 import AddPermission from './_addPermission';
 import EditPermission from './_editPermission';
 import api from '../../services/api'; 
+
 function Permissions() {
     const [permissions, setPermissionsList] = useState([]);
     const [showViewMode, setShowViewMode] = useState(false);
@@ -76,23 +76,24 @@ function Permissions() {
     return (
         <div className='permissions-page'>
             <div className='container'>
-                <h1>Welcome to Crud Operations Crash Course.</h1>
-                <h3>We will use React, Primereact, Json-server and Axios</h3>
+                <h1>Permission Management</h1>
 
                 <div className='permissions-list'>
                     <div className='addNewPermission'>
                         <button className='btn btn-success' onClick={() => setShowAddMode(true)}>
-                           <i className='pi pi-plus'></i>
+                            <i className='pi pi-plus'></i> Add Permission
                         </button>
                     </div>
                     <DataTable value={permissions}>
                         <Column field="id" header="ID"></Column>
-                        <Column field="firstName" header="FullName"></Column>
-                        <Column field="permissionTypeName" header="Permissionname"></Column>
+                        <Column field="firstName" header="First Name"></Column>
+                        <Column field="lastName" header="Last Name"></Column>
+                        <Column field="permissionTypeName" header="Permission Name"></Column>
                         <Column header="Actions" body={actionsTemplate}></Column>
                     </DataTable>
                 </div>
             </div>
+
             <Dialog header="View Permission Data"
                 visible={showViewMode}
                 style={{ width: '70vw' }}
@@ -100,17 +101,17 @@ function Permissions() {
                 <ViewPermission Id={selectedPermissionId} />
             </Dialog>
 
-            <Dialog header=" Add New Permission"
+            <Dialog header="Add New Permission"
                 visible={showAddMode}
-                style={{ width: '35vw', margin: '20px' }}
+                style={{ width: '35vw' }}
                 onHide={() => setShowAddMode(false)}>
                 <AddPermission setPermissionAdded={() => {
-                    setShowAddMode(false);  // Cerrar el diálogo
-                    getAllPermissions();     // Actualizar la lista de permisos
+                    setShowAddMode(false);  // Close dialog
+                    getAllPermissions();    // Refresh permissions list
                 }} />
             </Dialog>
 
-            <Dialog header="Edit Exist Permission"
+            <Dialog header="Edit Existing Permission"
                 visible={showEditMode}
                 style={{ width: '70vw' }}
                 onHide={() => setShowEditMode(false)}>

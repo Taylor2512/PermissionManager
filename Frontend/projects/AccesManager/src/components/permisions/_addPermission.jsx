@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react'
 import api from '../../services/api';
-import { AutoComplete } from 'primereact/autocomplete';
-
-import { Panel } from 'primereact/panel';
-        
+import { AutoComplete } from 'primereact/autocomplete';        
 const initialPermissionInfo = {
     FirstName: '',
     LastName: '',
@@ -36,7 +33,7 @@ function AddPermission(props) {
 
     const addNewPermission = async () => {
         try {
-            const response = await api.post('/permissions/request', permissionInfo);
+            const response = await api.post('/permissions', permissionInfo);
             if (response) {
                 props.setPermissionAdded(); // Esta función cerrará el diálogo y actualizará la lista de permisos.
             }
