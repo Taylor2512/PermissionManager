@@ -13,7 +13,7 @@ namespace PermissionManager.Core.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "PermissionTypes",
+                name: "PermissionType",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -43,13 +43,13 @@ namespace PermissionManager.Core.Migrations
                     table.ForeignKey(
                         name: "FK_Permissions_PermissionTypes",
                         column: x => x.PermissionTypeId,
-                        principalTable: "PermissionTypes",
+                        principalTable: "PermissionType",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
-                table: "PermissionTypes",
+                table: "PermissionType",
                 columns: new[] { "Id", "Description", "Name" },
                 values: new object[,]
                 {
@@ -73,7 +73,7 @@ namespace PermissionManager.Core.Migrations
                 name: "Permissions");
 
             migrationBuilder.DropTable(
-                name: "PermissionTypes");
+                name: "PermissionType");
         }
     }
 }

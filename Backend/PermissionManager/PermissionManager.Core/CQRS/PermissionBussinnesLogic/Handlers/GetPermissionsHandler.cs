@@ -3,17 +3,17 @@
 using MediatR;
 
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
-using PermissionManager.Core.Data.UnitOfWork;
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 using PermissionManager.Core.Services.Dtos;
 
 namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 {
     public class GetPermissionsHandler : IRequestHandler<GetPermissionsQuery, IEnumerable<PermissionDto>>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IQueryPermissionUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public GetPermissionsHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        public GetPermissionsHandler(IQueryPermissionUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -21,7 +21,7 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 
         public async Task<IEnumerable<PermissionDto>> Handle(GetPermissionsQuery query, CancellationToken cancellationToken)
         {
-            var permissions = await _unitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync();
+            IEnumerable<PermissionDto> permissions = await _unitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync();
             return _mapper.Map<IEnumerable<PermissionDto>>(permissions);
         }
     }

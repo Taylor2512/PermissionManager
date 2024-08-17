@@ -1,7 +1,6 @@
 ﻿using Elastic.Clients.Elasticsearch;
 
 using PermissionManager.Core.Interfaces;
-using PermissionManager.Core.Models;
 
 namespace PermissionManager.Core.Services
 {

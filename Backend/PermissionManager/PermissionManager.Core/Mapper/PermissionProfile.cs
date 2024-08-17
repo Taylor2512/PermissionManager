@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 
-using PermissionManager.Core.Models;
 using PermissionManager.Core.Services.Dtos;
 using PermissionManager.Core.Services.Request;
 

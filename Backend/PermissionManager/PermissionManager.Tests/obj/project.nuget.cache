@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mzt7U72W864=",
+  "dgSpecHash": "85mI3g2GDg8=",
   "success": true,
   "projectFilePath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,12 @@
     "C:\\Users\\montenegroj\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\montenegroj\\.nuget\\packages\\confluent.kafka\\2.5.2\\confluent.kafka.2.5.2.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
-    "C:\\Users\\montenegroj\\.nuget\\packages\\elastic.clients.elasticsearch\\8.15.1\\elastic.clients.elasticsearch.8.15.1.nupkg.sha512",
+    "C:\\Users\\montenegroj\\.nuget\\packages\\elastic.clients.elasticsearch\\8.15.0\\elastic.clients.elasticsearch.8.15.0.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\elastic.transport\\0.4.22\\elastic.transport.0.4.22.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\justmock\\2024.3.805.336\\justmock.2024.3.805.336.nupkg.sha512",
+    "C:\\Users\\montenegroj\\.nuget\\packages\\librdkafka.redist\\2.5.0\\librdkafka.redist.2.5.0.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\montenegroj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

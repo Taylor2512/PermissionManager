@@ -28,3 +28,8 @@ C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\b
 C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\PermissionManager.Core.genruntimeconfig.cache
 C:\TrabajosScharp\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Core.runtimeconfig.json
 C:\TrabajosScharp\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\PermissionManager.Core.genruntimeconfig.cache
+C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Producter.dll
+C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Producter.pdb
+C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\obj\Debug\net8.0\Permissi.6C81F295.Up2Date
+C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Shared.dll
+C:\Trabajos\PermissionManager\Backend\PermissionManager\PermissionManager.Core\bin\Debug\net8.0\PermissionManager.Shared.pdb

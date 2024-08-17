@@ -3,23 +3,24 @@
 using MediatR;
 
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
-using PermissionManager.Core.Data.UnitOfWork;
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 using PermissionManager.Core.Exceptions;
-using PermissionManager.Core.Interfaces;
+using PermissionManager.Producter;
+using PermissionManager.Shared;
 
 namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 {
     public class ModifyPermissionHandler : IRequestHandler<ModifyPermissionCommand>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICommandPermissionUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IElasticSearchService _elasticSearchService;
+        private readonly IProducerService _producerService;
 
-        public ModifyPermissionHandler(IUnitOfWork unitOfWork, IMapper mapper, IElasticSearchService elasticSearchService)
+        public ModifyPermissionHandler(ICommandPermissionUnitOfWork unitOfWork, IMapper mapper, IProducerService producerService)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _elasticSearchService = elasticSearchService;
+            _producerService = producerService;
         }
 
         public async Task Handle(ModifyPermissionCommand request, CancellationToken cancellationToken)
@@ -31,7 +32,14 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
             }
             _mapper.Map(request.Request, existingPermission);
             await _unitOfWork.CompleteAsync();
-            await _elasticSearchService.IndexPermissionAsync(existingPermission);
+            var eventMessage = new PermissionEvent<Permission>
+            {
+                OperationType = "Update",
+                EventData = existingPermission
+            };
+
+            await _producerService.ProduceAsync(nameof(Permission), existingPermission.Id.ToString(), eventMessage);
+
         }
     }
 }

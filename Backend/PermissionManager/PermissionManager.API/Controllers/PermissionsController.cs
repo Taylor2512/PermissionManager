@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 using PermissionManager.Core.Interfaces;
-using PermissionManager.Core.Models;
+
 using PermissionManager.Core.Services.Request;
 
 namespace PermissionManager.API.Controllers

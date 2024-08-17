@@ -1,6 +1,4 @@
-﻿using PermissionManager.Core.Models;
-
-namespace PermissionManager.Core.Interfaces
+﻿namespace PermissionManager.Core.Interfaces
 {
     public interface IElasticSearchService
     {

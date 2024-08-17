@@ -2,13 +2,13 @@
 using AutoMapper;
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers;
-using PermissionManager.Core.Data.UnitOfWork;
-using PermissionManager.Core.Models;
+
 using PermissionManager.Core.Services.Dtos;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 
 namespace PermissionManager.Tests.Handlers
 {
@@ -16,13 +16,13 @@ namespace PermissionManager.Tests.Handlers
 
     public class GetPermissionsHandlerTests
     {
-        private readonly IUnitOfWork _mockUnitOfWork;
+        private readonly IQueryPermissionUnitOfWork _mockUnitOfWork;
         private readonly IMapper _mockMapper;
         private readonly GetPermissionsHandler _handler;
 
         public GetPermissionsHandlerTests()
         {
-            _mockUnitOfWork = Mock.Create<IUnitOfWork>();
+            _mockUnitOfWork = Mock.Create<IQueryPermissionUnitOfWork>();
             _mockMapper = Mock.Create<IMapper>();
             _handler = new GetPermissionsHandler(_mockUnitOfWork, _mockMapper);
         }
@@ -31,7 +31,7 @@ namespace PermissionManager.Tests.Handlers
         public async Task Handle_GetPermissions_ReturnsListOfPermissionDtos()
         {
             var query = new GetPermissionsQuery();
-            var permissions = new List<Permission>
+            IEnumerable<Permission> permissions = new List<Permission>
             {
                 new Permission
                 {
@@ -60,7 +60,7 @@ namespace PermissionManager.Tests.Handlers
                     }
                 }
             };
-            Mock.Arrange(() => _mockUnitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync()).ReturnsAsync(permissions);
+            Mock.Arrange(() => _mockUnitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync()).ReturnsAsync(permissionDtos);
             Mock.Arrange(() => _mockMapper.Map<IEnumerable<PermissionDto>>(permissions)).Returns(permissionDtos);
 
             var result = await _handler.Handle(query, CancellationToken.None);

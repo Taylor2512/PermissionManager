@@ -12,6 +12,7 @@ namespace PermissionManager.Core.Interfaces
         Task<IEnumerable<PermissionDto>> GetPermissionsAsync();
 
         Task<PermissionDto> GetPermissionByIdAsync(int id);
+
         Task DeletePermissionAsync(int id);
     }
 }

@@ -2,12 +2,12 @@
 using AutoMapper;
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers;
-using PermissionManager.Core.Data.UnitOfWork;
-using PermissionManager.Core.Models;
+
 using PermissionManager.Core.Services.Dtos;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 
 namespace PermissionManager.Tests.Handlers
 {
@@ -15,13 +15,13 @@ namespace PermissionManager.Tests.Handlers
 
     public class GetPermissionByIdHandlerTests
     {
-        private readonly IUnitOfWork _mockUnitOfWork;
+        private readonly IQueryPermissionUnitOfWork _mockUnitOfWork;
         private readonly IMapper _mockMapper;
         private readonly GetPermissionByIdHandler _handler;
 
         public GetPermissionByIdHandlerTests()
         {
-            _mockUnitOfWork = Mock.Create<IUnitOfWork>();
+            _mockUnitOfWork = Mock.Create<IQueryPermissionUnitOfWork>();
             _mockMapper = Mock.Create<IMapper>();
             _handler = new GetPermissionByIdHandler(_mockUnitOfWork, _mockMapper);
         }
@@ -55,7 +55,7 @@ namespace PermissionManager.Tests.Handlers
             };
 
             // Configurar mocks
-            Mock.Arrange(() => _mockUnitOfWork.Permissions.GetByIWithTypesdAsync(id)).ReturnsAsync(permission);
+            //Mock.Arrange(() => _mockUnitOfWork.Permissions.GetByIWithTypesdAsync(id)).ReturnsAsync(permission);
             Mock.Arrange(() => _mockMapper.Map<PermissionDto>(permission)).Returns(permissionDto);
 
             // Act

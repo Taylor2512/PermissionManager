@@ -1,21 +1,23 @@
 ﻿using MediatR;
 
 using PermissionManager.Core.CQRS.PermissionBussinnesLogic.Commands;
-using PermissionManager.Core.Data.UnitOfWork;
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 using PermissionManager.Core.Exceptions;
 using PermissionManager.Core.Interfaces;
+using PermissionManager.Producter;
+using PermissionManager.Shared;
 
 namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 {
     public class DeletePermissionHandler : IRequestHandler<DeletePermissionCommand>
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly IElasticSearchService _elasticSearchService;
+        private readonly ICommandPermissionUnitOfWork _unitOfWork;
+        private readonly IProducerService _producterServices;
 
-        public DeletePermissionHandler(IUnitOfWork unitOfWork, IElasticSearchService elasticSearchService)
+        public DeletePermissionHandler(ICommandPermissionUnitOfWork unitOfWork, IProducerService producterServices)
         {
             _unitOfWork = unitOfWork;
-            _elasticSearchService = elasticSearchService;
+            _producterServices = producterServices;
         }
 
         public async Task Handle(DeletePermissionCommand request, CancellationToken cancellationToken)
@@ -27,7 +29,13 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
             }
             _unitOfWork.Permissions.Remove(permission);
             await _unitOfWork.CompleteAsync();
-            await _elasticSearchService.DeletePermissionAsync(permission);
+            var eventMessage = new PermissionEvent<Permission>
+            {
+                OperationType = "Delete",
+                EventData = permission
+            };
+
+            await _producterServices.ProduceAsync(nameof(Permission), permission.Id.ToString(), eventMessage);
         }
     }
 }

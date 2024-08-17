@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-using PermissionManager.Core.Models;
+
 
 namespace PermissionManager.API.Controllers
 {
