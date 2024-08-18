@@ -60,7 +60,8 @@ namespace PermissionManager.Consumers
             return new ConsumerConfig
             {
                 BootstrapServers = _configuration["Kafka:BootstrapServers"],  // Asegúrate de que esto esté configurado correctamente
-                GroupId = _configuration["Kafka:GroupId"],  // El ID del grupo de consumidores
+                GroupId  = this.GetType().Name + "-" + new Guid().ToString(),
+                // El ID del grupo de consumidores
                 AutoOffsetReset = AutoOffsetReset.Earliest,  // Empieza a leer desde el principio si no hay offset
                 EnableAutoCommit = true,  // Activa el autocommit de offset
                 AllowAutoCreateTopics = true,

@@ -34,7 +34,7 @@ namespace PermissionManager.Core.Services
                     foreach (var permissionType in permissionTypes)
                     {
                         var mensaje= new MessageData<PermissionType>() { Data = permissionType };
-                        await producer.ProduceAsync(permissionType.GetType().Name, permissionType.Id.ToString(), permissionType);
+                        await producer.ProduceAsync(permissionType.GetType().Name, permissionType.Id.ToString(), mensaje);
                     }
                 }
                 _logger.LogInformation("Catalog sync completed.");

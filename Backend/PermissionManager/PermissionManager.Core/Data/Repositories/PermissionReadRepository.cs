@@ -24,7 +24,7 @@ namespace PermissionManager.Core.Data.Repositories
             {
                 return null;
             }
-            var permisionType = await _client.GetAsync<PermissionType>(permision.PermissionType, idx => idx.Index(nameof(PermissionType).ToLower()));
+            var permisionType = await _client.GetAsync<PermissionType>(permision.PermissionTypeId, idx => idx.Index(nameof(PermissionType).ToLower()+"s"));
             if (permisionType.IsValidResponse)
             {
                 permision.PermissionType = permisionType.Source;
@@ -34,9 +34,17 @@ namespace PermissionManager.Core.Data.Repositories
 
         public async Task<IEnumerable<Permission>> GetPermissionTypesWithPermissionsAsync()
         {
+            var permisionType = await _client.SearchAsync<PermissionType>(idx => idx.Index(nameof(PermissionType).ToLower() + "s"));
+
             var response = await _client.SearchAsync<Permission>(e=>e.Index(IndexName));
             if (response.IsSuccess())
             {
+                if (permisionType.IsValidResponse) {
+                    foreach (var item in response.Documents)
+                    {
+                        item.PermissionType = permisionType.Documents.FirstOrDefault(x => x.Id == item.PermissionTypeId);
+                    }
+                }
                 return response.Documents;
             }
             return null;

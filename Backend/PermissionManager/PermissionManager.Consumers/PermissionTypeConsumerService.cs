@@ -3,6 +3,7 @@ using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 using PermissionManager.Shared;
 using PermissionManager.Shared.Models;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 namespace PermissionManager.Consumers
 {
     public class PermissionTypeConsumerService : IPermissionTypeConsumerService
@@ -33,7 +34,14 @@ namespace PermissionManager.Consumers
                 try
                 {
                     var consumeResult = consumer.Consume(stoppingToken);
-                    var permissionEvent = JsonSerializer.Deserialize<MessageData<PermissionType>>(consumeResult.Message.Value);
+                    var options = new JsonSerializerOptions
+                    {
+                        DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+                        IgnoreReadOnlyProperties = true,
+                        IgnoreReadOnlyFields = true,
+                        PropertyNameCaseInsensitive = true,
+                    };
+                    var permissionEvent = JsonSerializer.Deserialize<MessageData<PermissionType>>(consumeResult.Message.Value, options);
 
                     if (permissionEvent != null)
                     {
@@ -52,7 +60,7 @@ namespace PermissionManager.Consumers
             return new ConsumerConfig
             {
                 BootstrapServers = _configuration["Kafka:BootstrapServers"],  // Asegúrate de que esto esté configurado correctamente
-                GroupId = _configuration["Kafka:GroupId"],  // El ID del grupo de consumidores
+                GroupId = this.GetType().Name+ "-"+new Guid().ToString(),
                 AutoOffsetReset = AutoOffsetReset.Earliest,  // Empieza a leer desde el principio si no hay offset
                 EnableAutoCommit = true,  // Activa el autocommit de offset
                 AllowAutoCreateTopics = true,
