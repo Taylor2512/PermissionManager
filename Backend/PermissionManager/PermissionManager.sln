@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionManager.Tests", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionManager.Producter", "PermissionManager.Producter\PermissionManager.Producter.csproj", "{5458E795-597F-437D-AA88-580BCCF061C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionManager.Shared", "PermissionManger.Shared\PermissionManager.Shared.csproj", "{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionManager.Shared", "PermissionManger.Shared\PermissionManager.Shared.csproj", "{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionManager.Consumers", "PermissionManager.Consumers\PermissionManager.Consumers.csproj", "{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionManager.Consumers", "PermissionManager.Consumers\PermissionManager.Consumers.csproj", "{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AFDFE9D2-291D-40B0-A89B-C118C638A583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDFE9D2-291D-40B0-A89B-C118C638A583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDFE9D2-291D-40B0-A89B-C118C638A583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDFE9D2-291D-40B0-A89B-C118C638A583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDFE9D2-291D-40B0-A89B-C118C638A583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

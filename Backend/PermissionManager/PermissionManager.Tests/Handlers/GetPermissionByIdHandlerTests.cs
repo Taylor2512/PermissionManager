@@ -33,19 +33,19 @@ namespace PermissionManager.Tests.Handlers
             var permission = new Permission
             {
                 Id = 1,
-                FirstName = "John",
-                LastName = "Doe",
+                EmployeeForename = "John",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 1,
-                PermissionDate = new DateOnly(2024, 8, 15),
+                PermissionDate = DateTime.UtcNow,
                 PermissionType = new PermissionType { Id = 1, Description = "Admin", Name = "Admin" }
             };
             var permissionDto = new PermissionDto
             {
                 Id = 1,
-                FirstName = "John",
-                LastName = "Doe",
+                EmployeeForename = "John",
+                EmployeeSurname = "Doe",
                 PermissionTypeName = "Admin",
-                PermissionDate = new DateOnly(2024, 8, 15),
+                PermissionDate = DateTime.UtcNow,
                 PermissionType = new PermissionTypeDto
                 {
                     Id = 1,
@@ -65,8 +65,8 @@ namespace PermissionManager.Tests.Handlers
             // Assert - Comparar propiedades en lugar de instancias completas
             Assert.IsNotNull(result);
             Assert.AreEqual(permissionDto.Id, result.Id);
-            Assert.AreEqual(permissionDto.FirstName, result.FirstName);
-            Assert.AreEqual(permissionDto.LastName, result.LastName);
+            Assert.AreEqual(permissionDto.EmployeeForename, result.EmployeeForename);
+            Assert.AreEqual(permissionDto.EmployeeSurname, result.EmployeeSurname);
             Assert.AreEqual(permissionDto.PermissionTypeName, result.PermissionTypeName);
             Assert.AreEqual(permissionDto.PermissionDate, result.PermissionDate);
             Assert.AreEqual(permissionDto.PermissionType.Id, result.PermissionType.Id);

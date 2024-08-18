@@ -12,15 +12,17 @@ namespace PermissionManager.Core.Data.Configurations
         public void Configure(EntityTypeBuilder<Permission> entity)
         {
             entity.HasKey(e => e.Id).HasName("PK__Permissi__3214EC076E61CD05");
+            entity.ToTable("permission");
 
             entity.HasIndex(e => e.PermissionTypeId, "IDX_Permissions_PermissionTypeId");
 
-            entity.Property(e => e.FirstName)
+            entity.Property(e => e.EmployeeForename)
                 .IsRequired()
                 .HasMaxLength(255);
-            entity.Property(e => e.LastName)
+            entity.Property(e => e.EmployeeSurname)
                 .IsRequired()
                 .HasMaxLength(255);
+            entity.Property(e => e.PermissionDate);
 
             entity.HasOne(d => d.PermissionType).WithMany(p => p.Permissions)
                 .HasForeignKey(d => d.PermissionTypeId)

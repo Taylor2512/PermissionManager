@@ -12,7 +12,7 @@ namespace PermissionManager.Core.Data.Configurations
         public void Configure(EntityTypeBuilder<PermissionType> entity)
         {
             entity.HasKey(e => e.Id).HasName("PK__Permissi__3214EC070183A796");
-
+            entity.ToTable("permissionType");
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(100);

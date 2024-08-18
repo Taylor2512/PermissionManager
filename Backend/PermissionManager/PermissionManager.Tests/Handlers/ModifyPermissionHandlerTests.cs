@@ -35,8 +35,8 @@ namespace PermissionManager.Tests.Handlers
         {
             var command = new ModifyPermissionCommand(1, new PermissionRequest
             {
-                FirstName = "Jane",
-                LastName = "Doe",
+                EmployeeForename = "Jane",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 2
             });
             Mock.Arrange(() => _mockUnitOfWork.Permissions.GetByIdAsync(command.Id)).ReturnsAsync((Permission)null);
@@ -52,18 +52,18 @@ namespace PermissionManager.Tests.Handlers
             // Arrange
             var command = new ModifyPermissionCommand(1, new PermissionRequest
             {
-                FirstName = "Jane",
-                LastName = "Doe",
+                EmployeeForename = "Jane",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 2
             });
 
             var permission = new Permission
             {
                 Id = 1,
-                FirstName = "John",
-                LastName = "Doe",
+                EmployeeForename = "John",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 1,
-                PermissionDate = new DateOnly(2024, 8, 15),
+                PermissionDate = DateTime.UtcNow,
                 PermissionType = new PermissionType
                 {
                     Id = 1,

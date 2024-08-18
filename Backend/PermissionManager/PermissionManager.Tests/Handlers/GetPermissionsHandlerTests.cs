@@ -36,10 +36,10 @@ namespace PermissionManager.Tests.Handlers
                 new Permission
                 {
                     Id = 1,
-                    FirstName = "John",
-                    LastName = "Doe",
+                    EmployeeForename = "John",
+                    EmployeeSurname = "Doe",
                     PermissionTypeId = 1,
-                    PermissionDate = new DateOnly(2024, 8, 15),
+                    PermissionDate = DateTime.UtcNow,
                     PermissionType = new PermissionType { Id = 1, Description = "Admin", Name = "Admin" }
                 }
             };
@@ -48,10 +48,10 @@ namespace PermissionManager.Tests.Handlers
                 new PermissionDto
                 {
                     Id = 1,
-                    FirstName = "John",
-                    LastName = "Doe",
+                    EmployeeForename = "John",
+                    EmployeeSurname = "Doe",
                     PermissionTypeName = "Admin",
-                    PermissionDate = new DateOnly(2024, 8, 15),
+                    PermissionDate = DateTime.UtcNow,
                     PermissionType = new PermissionTypeDto
                     {
                         Id = 1,

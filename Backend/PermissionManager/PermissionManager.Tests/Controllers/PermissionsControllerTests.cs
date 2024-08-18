@@ -34,8 +34,8 @@ namespace PermissionManager.Tests.Controllers
         {
             var request = new PermissionRequest
             {
-                FirstName = "John",
-                LastName = "Doe",
+                EmployeeForename = "John",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 1
             };
             Mock.Arrange(() => _mockPermissionService.RequestPermissionAsync(request)).Returns(Task.CompletedTask);
@@ -51,8 +51,8 @@ namespace PermissionManager.Tests.Controllers
         {
             var request = new PermissionRequest
             {
-                FirstName = "Jane",
-                LastName = "Doe",
+                EmployeeForename = "Jane",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 1
             };
             var id = 1;
@@ -72,10 +72,10 @@ namespace PermissionManager.Tests.Controllers
                 new PermissionDto
                 {
                     Id = 1,
-                    FirstName = "John",
-                    LastName = "Doe",
+                    EmployeeForename = "John",
+                    EmployeeSurname = "Doe",
                     PermissionTypeName = "Admin",
-                    PermissionDate = new DateOnly(2024, 8, 15),
+                    PermissionDate = DateTime.UtcNow,
                     PermissionType = new PermissionTypeDto
                     {
                         Id = 1,
@@ -99,10 +99,10 @@ namespace PermissionManager.Tests.Controllers
             var permission = new PermissionDto
             {
                 Id = 1,
-                FirstName = "Jane",
-                LastName = "Doe",
+                EmployeeForename = "Jane",
+                EmployeeSurname = "Doe",
                 PermissionTypeName = "User",
-                PermissionDate = new DateOnly(2024, 8, 15),
+                PermissionDate = DateTime.UtcNow,
                 PermissionType = new PermissionTypeDto
                 {
                     Id = 2,

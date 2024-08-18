@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  permissionmanager.api:
+    image: ${DOCKER_REGISTRY-}permissionmanagerapi
+    build:
+      context: .
+      dockerfile: PermissionManager.API/Dockerfile
+
+  permissionmanager.consumers:
+    image: ${DOCKER_REGISTRY-}permissionmanagerconsumers
+    build:
+      context: .
+      dockerfile: PermissionManager.Consumers/Dockerfile
+

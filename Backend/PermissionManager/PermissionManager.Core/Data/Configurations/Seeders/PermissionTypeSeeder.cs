@@ -9,12 +9,7 @@ namespace PermissionManager.Core.Data.Configurations.Seeders
 {
     public class PermissionTypeSeeder : IEntityTypeConfiguration<PermissionType>
     {
-        private readonly IProducerService _producerService;
 
-        public PermissionTypeSeeder(IProducerService producerService)
-        {
-            _producerService = producerService;
-        }
 
         public void Configure(EntityTypeBuilder<PermissionType> builder)
         {
@@ -29,16 +24,6 @@ namespace PermissionManager.Core.Data.Configurations.Seeders
 
             builder.HasData(permissionTypes);
 
-            // Enviar eventos a Kafka
-            foreach (var permissionType in permissionTypes)
-            {
-                var eventMessage = new PermissionEvent<PermissionType>
-                {
-                    OperationType = "Create",
-                    EventData = permissionType
-                };
-                _producerService.ProduceAsync(nameof(PermissionType), permissionType.Id.ToString(), eventMessage).Wait();
-            }
         }
     }
 }

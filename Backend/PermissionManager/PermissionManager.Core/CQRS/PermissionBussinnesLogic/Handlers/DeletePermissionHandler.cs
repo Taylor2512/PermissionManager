@@ -29,10 +29,10 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
             }
             _unitOfWork.Permissions.Remove(permission);
             await _unitOfWork.CompleteAsync();
-            var eventMessage = new PermissionEvent<Permission>
+            var eventMessage = new MessageData<Permission>
             {
                 OperationType = "Delete",
-                EventData = permission
+                Data = permission
             };
 
             await _producterServices.ProduceAsync(nameof(Permission), permission.Id.ToString(), eventMessage);

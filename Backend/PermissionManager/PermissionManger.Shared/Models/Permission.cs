@@ -9,13 +9,13 @@ public partial class Permission
 {
     public int Id { get; set; }
 
-    public string FirstName { get; set; }
+    public string EmployeeForename { get; set; }
 
-    public string LastName { get; set; }
+    public string EmployeeSurname { get; set; }
 
     public int PermissionTypeId { get; set; }
 
-    public DateOnly PermissionDate { get; set; }
+    public DateTime PermissionDate { get; set; } = DateTime.UtcNow;
 
     public virtual PermissionType PermissionType { get; set; }
 }

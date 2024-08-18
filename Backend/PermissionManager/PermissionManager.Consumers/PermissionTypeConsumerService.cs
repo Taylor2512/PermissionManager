@@ -1,26 +1,18 @@
 ﻿using Confluent.Kafka;
 using PermissionManager.Core.Data.UnitOfWork.Interfaces;
-using PermissionManager.Core.Interfaces;
 using PermissionManager.Shared;
 using PermissionManager.Shared.Models;
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
-
 namespace PermissionManager.Consumers
 {
-    public class KafkaConsumerService : IKafkaConsumerService
+    public class PermissionTypeConsumerService : IPermissionTypeConsumerService
     {
-        private readonly ILogger<KafkaConsumerService> _logger;
+        private readonly ILogger<PermissionTypeConsumerService> _logger;
         private readonly IQueryPermissionUnitOfWork _elasticSearchService;
         private readonly IConfiguration _configuration;
 
-        public KafkaConsumerService(
-            ILogger<KafkaConsumerService> logger,
+        public PermissionTypeConsumerService(
+            ILogger<PermissionTypeConsumerService> logger,
             IQueryPermissionUnitOfWork elasticSearchService,
             IConfiguration configuration)
         {
@@ -41,11 +33,11 @@ namespace PermissionManager.Consumers
                 try
                 {
                     var consumeResult = consumer.Consume(stoppingToken);
-                    var permissionEvent = JsonSerializer.Deserialize<PermissionEvent<Permission>>(consumeResult.Message.Value);
+                    var permissionEvent = JsonSerializer.Deserialize<MessageData<PermissionType>>(consumeResult.Message.Value);
 
                     if (permissionEvent != null)
                     {
-                        await HandlePermissionEventAsync(permissionEvent);
+                        await HandlePermissionTypeEventAsync(permissionEvent);
                     }
                 }
                 catch (ConsumeException ex)
@@ -68,21 +60,24 @@ namespace PermissionManager.Consumers
             };
         }
 
-        private async Task HandlePermissionEventAsync(PermissionEvent<Permission> permissionEvent)
+        private async Task HandlePermissionTypeEventAsync(MessageData<PermissionType> permissionEvent)
         {
             switch (permissionEvent.OperationType)
             {
                 case "Create":
-                    await _elasticSearchService.Permissions.CreateOrUpdateAsync(permissionEvent.EventData);
-                    _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been created in Elasticsearch.");
+                    await _elasticSearchService.PermissionTypeReadRepository.CreateOrUpdateAsync(permissionEvent.Data);
+                    _logger.LogInformation($"Permission with ID {permissionEvent.Data.Id} has been created in Elasticsearch.");
                     break;
                 case "Update":
-                    await _elasticSearchService.Permissions.CreateOrUpdateAsync(permissionEvent.EventData);
-                    _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been updated in Elasticsearch.");
+                    await _elasticSearchService.PermissionTypeReadRepository.CreateOrUpdateAsync(permissionEvent.Data);
+                    _logger.LogInformation($"Permission with ID {permissionEvent.Data.Id} has been updated in Elasticsearch.");
                     break;
                 case "Delete":
-                    await _elasticSearchService.Permissions.DeleteAsync(permissionEvent.EventData);
-                    _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been deleted from Elasticsearch.");
+                    await _elasticSearchService.PermissionTypeReadRepository.DeleteAsync(permissionEvent.Data);
+                    _logger.LogInformation($"Permission with ID {permissionEvent.Data.Id} has been deleted from Elasticsearch.");
+                    break;
+                default:
+                    await _elasticSearchService.PermissionTypeReadRepository.CreateOrUpdateAsync(permissionEvent.Data);
                     break;
             }
         }

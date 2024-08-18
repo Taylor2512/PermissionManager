@@ -19,7 +19,6 @@ volumes:
 networks:
  default:
    name: elastic
-   external: false
 
 
 services:

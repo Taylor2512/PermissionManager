@@ -32,10 +32,10 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
             }
             _mapper.Map(request.Request, existingPermission);
             await _unitOfWork.CompleteAsync();
-            var eventMessage = new PermissionEvent<Permission>
+            var eventMessage = new MessageData<Permission>
             {
                 OperationType = "Update",
-                EventData = existingPermission
+                Data = existingPermission
             };
 
             await _producerService.ProduceAsync(nameof(Permission), existingPermission.Id.ToString(), eventMessage);

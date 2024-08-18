@@ -1,19 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
-
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
 namespace PermissionManager.Core.Migrations
 {
     /// <inheritdoc />
-    public partial class first_migration : Migration
+    public partial class firstmigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "PermissionType",
+                name: "permissionType",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -27,15 +26,15 @@ namespace PermissionManager.Core.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Permissions",
+                name: "permission",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    EmployeeForename = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    EmployeeSurname = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     PermissionTypeId = table.Column<int>(type: "int", nullable: false),
-                    PermissionDate = table.Column<DateOnly>(type: "date", nullable: false)
+                    PermissionDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -43,26 +42,14 @@ namespace PermissionManager.Core.Migrations
                     table.ForeignKey(
                         name: "FK_Permissions_PermissionTypes",
                         column: x => x.PermissionTypeId,
-                        principalTable: "PermissionType",
+                        principalTable: "permissionType",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "PermissionType",
-                columns: new[] { "Id", "Description", "Name" },
-                values: new object[,]
-                {
-                    { 1, "Allows read-only access", "Read" },
-                    { 2, "Allows writing and modifying data", "Write" },
-                    { 3, "Allows executing operations", "Execute" },
-                    { 4, "Allows deletion of data", "Delete" },
-                    { 5, "Grants full administrative access", "Admin" }
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IDX_Permissions_PermissionTypeId",
-                table: "Permissions",
+                table: "permission",
                 column: "PermissionTypeId");
         }
 
@@ -70,10 +57,10 @@ namespace PermissionManager.Core.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Permissions");
+                name: "permission");
 
             migrationBuilder.DropTable(
-                name: "PermissionType");
+                name: "permissionType");
         }
     }
 }

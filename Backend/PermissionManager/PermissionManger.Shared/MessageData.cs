@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace PermissionManager.Shared
 {
-    public class PermissionEvent<T> where T:class
+    public class MessageData<T> where T:class
     {
         public string? OperationType { get; set; } 
-        public required T EventData { get; set; }
+        public required T Data { get; set; }
         public DateTime Date { get; set; } = DateTime.UtcNow;
     }
 

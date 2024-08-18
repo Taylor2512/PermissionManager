@@ -29,10 +29,10 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
             var permission = _mapper.Map<Permission>(request.Request);
             _unitOfWork.Permissions.Add(permission);
             await _unitOfWork.CompleteAsync();
-            var eventMessage = new PermissionEvent<Permission>
+            var eventMessage = new MessageData<Permission>
             {
                 OperationType = "Create",
-                EventData = permission
+                Data = permission
             };
 
             await _producerService.ProduceAsync(nameof(Permission), permission.Id.ToString(), eventMessage);

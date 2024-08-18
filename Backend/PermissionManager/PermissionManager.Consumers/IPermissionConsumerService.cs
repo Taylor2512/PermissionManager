@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PermissionManager.Consumers
 {
-    public interface IKafkaConsumerService
+    public interface IPermissionConsumerService
     {
         Task ProcessMessagesAsync(CancellationToken stoppingToken);
 

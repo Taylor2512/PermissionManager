@@ -33,8 +33,8 @@ namespace PermissionManager.Tests.Handlers
         {
             var command = new RequestPermissionCommand(new PermissionRequest
             {
-                FirstName = "John",
-                LastName = "Doe",
+                EmployeeForename = "John",
+                EmployeeSurname = "Doe",
                 PermissionTypeId = 1
             });
             var permission = new Permission();

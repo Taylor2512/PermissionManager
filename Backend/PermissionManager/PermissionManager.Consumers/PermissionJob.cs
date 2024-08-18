@@ -10,11 +10,11 @@ using System.Text.Json;
 
 namespace PermissionManager.Consumers
 {
-    public class Worker: BackgroundService
+    public class PermissionJob: BackgroundService
     {
         private readonly IServiceProvider _serviceProvider;
 
-        public Worker(IServiceProvider serviceProvider)
+        public PermissionJob(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
         }
@@ -23,7 +23,7 @@ namespace PermissionManager.Consumers
         {
             using (var scope = _serviceProvider.CreateScope())
             {
-                var kafkaConsumerService = scope.ServiceProvider.GetRequiredService<IKafkaConsumerService>();
+                var kafkaConsumerService = scope.ServiceProvider.GetRequiredService<IPermissionConsumerService>();
                 await kafkaConsumerService.ProcessMessagesAsync(stoppingToken);
             }
         }
