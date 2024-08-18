@@ -25,7 +25,6 @@ namespace PermissionManager.Core.Configuration
         public static IServiceCollection AddConfigureServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IElasticSearchService, ElasticSearchService>();
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetPermissionsHandler).Assembly));
             services.AddScoped<IPermissionService, PermissionService>();

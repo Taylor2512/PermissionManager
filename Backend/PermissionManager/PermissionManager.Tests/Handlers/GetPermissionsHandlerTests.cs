@@ -60,7 +60,7 @@ namespace PermissionManager.Tests.Handlers
                     }
                 }
             };
-            Mock.Arrange(() => _mockUnitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync()).ReturnsAsync(permissionDtos);
+            Mock.Arrange(() => _mockUnitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync()).ReturnsAsync(permissions);
             Mock.Arrange(() => _mockMapper.Map<IEnumerable<PermissionDto>>(permissions)).Returns(permissionDtos);
 
             var result = await _handler.Handle(query, CancellationToken.None);

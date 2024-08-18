@@ -21,7 +21,7 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 
         public async Task<IEnumerable<PermissionDto>> Handle(GetPermissionsQuery query, CancellationToken cancellationToken)
         {
-            IEnumerable<PermissionDto> permissions = await _unitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync();
+            var permissions = await _unitOfWork.Permissions.GetPermissionTypesWithPermissionsAsync();
             return _mapper.Map<IEnumerable<PermissionDto>>(permissions);
         }
     }

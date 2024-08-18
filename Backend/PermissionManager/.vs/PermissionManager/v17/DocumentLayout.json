@@ -1,182 +1,198 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\",
+  "WorkspaceRootPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\configuration\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\configuration\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\interfaces\\icommandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\interfaces\\icommandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\configurations\\seeders\\permissiontypeseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\configurations\\seeders\\permissiontypeseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\requestpermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\requestpermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\modifypermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\modifypermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\getpermissionshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\getpermissionshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\getpermissionbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\getpermissionbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5458E795-597F-437D-AA88-580BCCF061C8}|PermissionManager.Producter\\PermissionManager.Producter.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.producter\\producerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5458E795-597F-437D-AA88-580BCCF061C8}|PermissionManager.Producter\\PermissionManager.Producter.csproj|solutionrelative:permissionmanager.producter\\producerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|solutionrelative:permissionmanager.consumers\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\modifypermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\modifypermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\modifypermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanger.shared\\permissionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|solutionrelative:permissionmanger.shared\\permissionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\requestpermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\requestpermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\deletepermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\deletepermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\commandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\commandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\querypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\querypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\interfaces\\iquerypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\interfaces\\iquerypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\repositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\repositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\repositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\repositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\irepositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\irepositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\elasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\elasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\irepositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\irepositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\irepositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ielasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ielasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissionreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\dtos\\permissiontypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\dtos\\permissiontypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\repositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\repositoryread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\dtos\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\dtos\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\request\\permissiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\request\\permissiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\getpermissionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\request\\permissionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\request\\permissionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\getpermissionshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\getpermissionshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\elasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\elasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\elasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\elasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\interfaces\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\interfaces\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\interfaces\\ielasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\interfaces\\ielasticsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\configurations\\seeders\\permissiontypeseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\configurations\\seeders\\permissiontypeseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|solutionrelative:permissionmanager.consumers\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\configuration\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\configuration\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|solutionrelative:permissionmanager.consumers\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\configuration\\elasticsearchextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\configuration\\elasticsearchextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanger.shared\\elasticsearchauthconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|solutionrelative:permissionmanger.shared\\elasticsearchauthconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|solutionrelative:permissionmanager.consumers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\interfaces\\iquerypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\interfaces\\iquerypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.consumers\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1F5C01B-FE3A-4D4D-81FE-A1F6955044AE}|PermissionManager.Consumers\\PermissionManager.Consumers.csproj|solutionrelative:permissionmanager.consumers\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajos\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82989F0A-38F8-4BBE-9453-CB6FA1A8A0AE}|PermissionManager.API\\PermissionManager.API.csproj|solutionrelative:permissionmanager.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanger.shared\\models\\permissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|solutionrelative:permissionmanger.shared\\models\\permissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanger.shared\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|solutionrelative:permissionmanger.shared\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypewriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\permissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\permissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissionwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\requestpermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\requestpermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\modifypermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\modifypermissionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.tests\\handlers\\getpermissionbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD277913-5659-43D8-AFF8-62069D13FD94}|PermissionManager.Tests\\PermissionManager.Tests.csproj|solutionrelative:permissionmanager.tests\\handlers\\getpermissionbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5458E795-597F-437D-AA88-580BCCF061C8}|PermissionManager.Producter\\PermissionManager.Producter.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.producter\\producerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5458E795-597F-437D-AA88-580BCCF061C8}|PermissionManager.Producter\\PermissionManager.Producter.csproj|solutionrelative:permissionmanager.producter\\producerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanger.shared\\permissionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89FE802F-1AAF-4D0B-B68F-DBFB279938C5}|PermissionManger.Shared\\PermissionManager.Shared.csproj|solutionrelative:permissionmanger.shared\\permissionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\requestpermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\requestpermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\deletepermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\cqrs\\permissionbussinneslogic\\handlers\\deletepermissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\commandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\commandpermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\unitofwork\\querypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\unitofwork\\querypermissionunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ipermissiontypereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\irepositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\irepositorywrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\data\\repositories\\interfaces\\ielasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\data\\repositories\\interfaces\\ielasticsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\dtos\\permissiontypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\dtos\\permissiontypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\dtos\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\dtos\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\request\\permissiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\request\\permissiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\request\\permissionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\request\\permissionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|c:\\trabajosscharp\\permissionmanager\\backend\\permissionmanager\\permissionmanager.core\\interfaces\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7CAF44-8EE1-42B4-AD41-9A39CE79C931}|PermissionManager.Core\\PermissionManager.Core.csproj|solutionrelative:permissionmanager.core\\interfaces\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -185,413 +201,120 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 280,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 298,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Configuration\\ConfigureServices.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ConfigureServices.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Configuration\\ConfigureServices.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwB0AAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:04:15.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PermissionWriteRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:01.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPermissionTypeWriteRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:26.912Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PermissionTypeWriteRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:07.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPermissionWriteRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:22.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "PermissionReadRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
               "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionReadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAARAAAA",
+              "ViewState": "AQIAAAwAAAAAMzMzMzMUwB0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T17:27:06.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICommandPermissionUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\ICommandPermissionUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\ICommandPermissionUnitOfWork.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\ICommandPermissionUnitOfWork.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\ICommandPermissionUnitOfWork.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAvwAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:20:08.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:46:59.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PermissionTypeSeeder.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwvykAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:52:32.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ModifyPermissionHandlerTests.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
-              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAvwBoAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:09:28.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RequestPermissionHandlerTests.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
-              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:12:52.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetPermissionsHandlerTests.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
-              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwDoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:09:59.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetPermissionByIdHandlerTests.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
-              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAASwDkAAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:08:46.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "KafkaConsumerService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\KafkaConsumerService.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Consumers\\KafkaConsumerService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\KafkaConsumerService.cs",
-              "RelativeToolTip": "PermissionManager.Consumers\\KafkaConsumerService.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAA0wEkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:06:22.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PermissionEvent.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionEvent.cs",
-              "RelativeDocumentMoniker": "PermissionManger.Shared\\PermissionEvent.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionEvent.cs",
-              "RelativeToolTip": "PermissionManger.Shared\\PermissionEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:00:48.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "ModifyPermissionHandler.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
               "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\ModifyPermissionHandler.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAArwCIAAAAjAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAowCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T15:58:22.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProducerService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\ProducerService.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Producter\\ProducerService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\ProducerService.cs",
-              "RelativeToolTip": "PermissionManager.Producter\\ProducerService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAswDYAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "IPermissionReadRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionReadRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionReadRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionReadRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:06:43.373Z",
+              "WhenOpened": "2024-08-18T00:45:44.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RequestPermissionHandler.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
-              "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAnwB8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:45:23.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "GetPermissionByIdHandler.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
               "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionByIdHandler.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBUAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA0wBgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T16:31:48.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DeletePermissionHandler.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
-              "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAArwB8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:43:52.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "GetPermissionsHandler.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
               "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\GetPermissionsHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABjAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA0wBcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T16:32:01.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CommandPermissionUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABLAAAA",
+              "DocumentIndex": 7,
+              "Title": "GetPermissionsHandlerTests.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
+              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\GetPermissionsHandlerTests.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAjwD4AAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:51:58.872Z",
+              "WhenOpened": "2024-08-17T19:09:59.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "QueryPermissionUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBUAAAATAAAA",
+              "DocumentIndex": 8,
+              "Title": "PermissionTypeWriteRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:57:26.458Z",
+              "WhenOpened": "2024-08-18T00:07:06.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IQueryPermissionUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:58:29.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RepositoryRead.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAowIcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:31:36.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 10,
               "Title": "PermissionTypeReadRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
               "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionTypeReadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T18:01:44.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RepositoryWrite.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryWrite.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\RepositoryWrite.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryWrite.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\RepositoryWrite.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAYwEYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:11.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IPermissionTypeReadRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:00:37.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IRepositoryWrite.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwAQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:31:31.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 9,
               "Title": "ElasticsearchRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
               "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\ElasticsearchRepository.cs",
               "ViewState": "AQIAAGcAAAAAAAAAAAAowHQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -600,24 +323,401 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IRepositoryRead.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "DocumentIndex": 11,
+              "Title": "PermissionTypeSeeder.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Configurations\\Seeders\\PermissionTypeSeeder.cs",
+              "ViewState": "AQIAABMAAABgzczMzMwpwCYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:30:06.961Z",
+              "WhenOpened": "2024-08-17T18:52:32.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Configuration\\ConfigureServices.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ConfigureServices.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Configuration\\ConfigureServices.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:04:15.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KafkaConsumerService.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\KafkaConsumerService.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Consumers\\KafkaConsumerService.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\KafkaConsumerService.cs",
+              "RelativeToolTip": "PermissionManager.Consumers\\KafkaConsumerService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAuwEsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:06:22.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA4AAABgZmZmZuYwwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T23:10:56.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.json",
+              "RelativeDocumentMoniker": "PermissionManager.Consumers\\appsettings.json",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.json",
+              "RelativeToolTip": "PermissionManager.Consumers\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T15:59:04.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ElasticsearchExtensions.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ElasticsearchExtensions.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Configuration\\ElasticsearchExtensions.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Configuration\\ElasticsearchExtensions.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Configuration\\ElasticsearchExtensions.cs",
+              "ViewState": "AQIAADIAAAAAzszMzEwYwDcAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:30:49.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IQueryPermissionUnitOfWork.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\Interfaces\\IQueryPermissionUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:58:29.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ElasticSearchAuthConfig.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\ElasticSearchAuthConfig.cs",
+              "RelativeDocumentMoniker": "PermissionManger.Shared\\ElasticSearchAuthConfig.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\ElasticSearchAuthConfig.cs",
+              "RelativeToolTip": "PermissionManger.Shared\\ElasticSearchAuthConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T23:37:00.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PermissionManager.Consumers\\appsettings.Development.json",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.Development.json",
+              "RelativeToolTip": "PermissionManager.Consumers\\appsettings.Development.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T15:59:09.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PermissionManager.API\\appsettings.Development.json",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.Development.json",
+              "RelativeToolTip": "PermissionManager.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T15:58:52.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPermissionWriteRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:31:22.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Program.cs",
+              "RelativeDocumentMoniker": "PermissionManager.API\\Program.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Program.cs",
+              "RelativeToolTip": "PermissionManager.API\\Program.cs",
+              "ViewState": "AQIAAAAAAABgZmZmZqYowAkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:48:23.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PermissionManager.API\\appsettings.json",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.json",
+              "RelativeToolTip": "PermissionManager.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T22:53:18.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PermissionManager.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PermissionManager.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAcAAAAAAAAAAMAtwB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-17T23:14:52.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "PermissionManager.API\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "PermissionManager.API\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAAQAAACAMzMzM7MSwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:26:37.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "PermissionManger.Shared\\Models\\Permission.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\Models\\Permission.cs",
+              "RelativeToolTip": "PermissionManger.Shared\\Models\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:10:24.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PermissionType.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\Models\\PermissionType.cs",
+              "RelativeDocumentMoniker": "PermissionManger.Shared\\Models\\PermissionType.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\Models\\PermissionType.cs",
+              "RelativeToolTip": "PermissionManger.Shared\\Models\\PermissionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T22:10:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IPermissionTypeWriteRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:31:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PermissionWriteRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\PermissionWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:31:01.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "ModifyPermissionHandlerTests.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
+              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\ModifyPermissionHandlerTests.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAvwBoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:09:28.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RequestPermissionHandlerTests.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
+              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\RequestPermissionHandlerTests.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:12:52.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetPermissionByIdHandlerTests.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
+              "RelativeToolTip": "PermissionManager.Tests\\Handlers\\GetPermissionByIdHandlerTests.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAASwDkAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:08:46.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PermissionEvent.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionEvent.cs",
+              "RelativeDocumentMoniker": "PermissionManger.Shared\\PermissionEvent.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionEvent.cs",
+              "RelativeToolTip": "PermissionManger.Shared\\PermissionEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:00:48.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProducerService.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\ProducerService.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Producter\\ProducerService.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\ProducerService.cs",
+              "RelativeToolTip": "PermissionManager.Producter\\ProducerService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:06:43.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RequestPermissionHandler.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
+              "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\RequestPermissionHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAnwB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:45:23.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DeletePermissionHandler.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
+              "RelativeToolTip": "PermissionManager.Core\\CQRS\\PermissionBussinnesLogic\\Handlers\\DeletePermissionHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAArwB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:43:52.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CommandPermissionUnitOfWork.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\CommandPermissionUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:51:58.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "QueryPermissionUnitOfWork.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\UnitOfWork\\QueryPermissionUnitOfWork.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:57:26.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IPermissionTypeReadRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IPermissionTypeReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:00:37.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IRepositoryWrite.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryWrite.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA/wAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:31:31.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "IElasticsearchRepository.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
               "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IElasticsearchRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -626,11 +726,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "PermissionTypeDto.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
               "RelativeToolTip": "PermissionManager.Core\\Services\\Dtos\\PermissionTypeDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -639,11 +739,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "PermissionService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\PermissionService.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\PermissionService.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\PermissionService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\PermissionService.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\PermissionService.cs",
               "RelativeToolTip": "PermissionManager.Core\\Services\\PermissionService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAcwCsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -652,11 +752,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "PermissionRequest.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
               "RelativeToolTip": "PermissionManager.Core\\Services\\Request\\PermissionRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -665,11 +765,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "PermissionTypeRequest.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
               "RelativeToolTip": "PermissionManager.Core\\Services\\Request\\PermissionTypeRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -678,11 +778,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "PermissionDto.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
               "RelativeToolTip": "PermissionManager.Core\\Services\\Dtos\\PermissionDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -691,93 +791,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ElasticSearchService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\ElasticSearchService.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Services\\ElasticSearchService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Services\\ElasticSearchService.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Services\\ElasticSearchService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAiwCIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:47:38.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "IPermissionService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IPermissionService.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IPermissionService.cs",
               "RelativeDocumentMoniker": "PermissionManager.Core\\Interfaces\\IPermissionService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IPermissionService.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IPermissionService.cs",
               "RelativeToolTip": "PermissionManager.Core\\Interfaces\\IPermissionService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAADwvxEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T16:47:29.364Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IElasticSearchService.cs",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IElasticSearchService.cs",
-              "RelativeDocumentMoniker": "PermissionManager.Core\\Interfaces\\IElasticSearchService.cs",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Interfaces\\IElasticSearchService.cs",
-              "RelativeToolTip": "PermissionManager.Core\\Interfaces\\IElasticSearchService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "RepositoryRead.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\RepositoryRead.cs",
+              "ViewState": "AQIAAB4AAABAmZmZmVklwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:47:10.322Z",
+              "WhenOpened": "2024-08-18T01:38:17.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PermissionManager.Consumers\\appsettings.Development.json",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.Development.json",
-              "RelativeToolTip": "PermissionManager.Consumers\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-17T15:59:09.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.json",
-              "RelativeDocumentMoniker": "PermissionManager.Consumers\\appsettings.json",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Consumers\\appsettings.json",
-              "RelativeToolTip": "PermissionManager.Consumers\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-17T15:59:04.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.json",
-              "RelativeDocumentMoniker": "PermissionManager.API\\appsettings.json",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.json",
-              "RelativeToolTip": "PermissionManager.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-17T15:58:59.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PermissionManager.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\appsettings.Development.json",
-              "RelativeToolTip": "PermissionManager.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-17T15:58:52.953Z",
+              "DocumentIndex": 2,
+              "Title": "IRepositoryRead.cs",
+              "DocumentMoniker": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
+              "RelativeDocumentMoniker": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
+              "ToolTip": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
+              "RelativeToolTip": "PermissionManager.Core\\Data\\Repositories\\Interfaces\\IRepositoryRead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T01:17:25.481Z",
               "EditorCaption": ""
             }
           ]

@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,10 +11,9 @@ namespace PermissionManager.Core.Data.Repositories.Interfaces
 {
     public interface IRepositoryRead<T> where T :class
     {
-        public Task<IEnumerable<T>> SearchAsync(
-            Query query = null,
-            int size = 10
-            );
+        Task<IEnumerable<T>> SearchAsync<TValue>(Expression<Func<T, TValue>?>? fieldExpression = null, object? value = null, int? size = 10);
+
+        Task<T?> GetById(int id);
 
         public Task<long> GetTotalAsync();
 

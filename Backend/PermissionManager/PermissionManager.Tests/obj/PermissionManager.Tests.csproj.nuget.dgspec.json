@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj": {}
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj": {
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj",
+        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj",
         "projectName": "PermissionManager.API",
-        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj",
-        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
-        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\obj\\",
+        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj",
+        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
+        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj"
               }
             }
           }
@@ -79,21 +84,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
+        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
         "projectName": "PermissionManager.Core",
-        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
-        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
-        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\obj\\",
+        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj",
+        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
+        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,17 +110,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj"
               },
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj"
               }
             }
           }
@@ -158,6 +168,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -176,21 +190,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj": {
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj",
+        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj",
         "projectName": "PermissionManager.Producter",
-        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj",
-        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
-        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\obj\\",
+        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\PermissionManager.Producter.csproj",
+        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
+        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Producter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,14 +216,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj"
               }
             }
           }
@@ -258,21 +277,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj": {
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj",
+        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj",
         "projectName": "PermissionManager.Tests",
-        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj",
-        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
-        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\obj\\",
+        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\PermissionManager.Tests.csproj",
+        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
+        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,17 +303,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.API\\PermissionManager.API.csproj"
               },
-              "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
-                "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj"
+              "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj": {
+                "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManager.Core\\PermissionManager.Core.csproj"
               }
             }
           }
@@ -363,21 +387,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
+    "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj",
+        "projectUniqueName": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj",
         "projectName": "PermissionManager.Shared",
-        "projectPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj",
-        "packagesPath": "C:\\Users\\montenegroj\\.nuget\\packages\\",
-        "outputPath": "C:\\Trabajos\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\obj\\",
+        "projectPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\PermissionManager.Shared.csproj",
+        "packagesPath": "C:\\Users\\jt251\\.nuget\\packages\\",
+        "outputPath": "C:\\TrabajosScharp\\PermissionManager\\Backend\\PermissionManager\\PermissionManger.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\montenegroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jt251\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -385,6 +413,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -423,7 +452,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

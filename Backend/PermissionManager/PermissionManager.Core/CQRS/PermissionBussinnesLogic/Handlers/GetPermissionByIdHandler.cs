@@ -22,7 +22,7 @@ namespace PermissionManager.Core.CQRS.PermissionBussinnesLogic.Handlers
 
         public async Task<PermissionDto> Handle(GetPermissionByIdQuery query, CancellationToken cancellationToken)
         {
-            PermissionDto? permission = await _unitOfWork.Permissions.GetByIWithTypesdAsync(query.Id);
+            var permission = await _unitOfWork.Permissions.GetByIWithTypesdAsync(query.Id);
             if (permission == null)
             {
                 throw new NotFoundException($"Permission with ID {query.Id} not found.");

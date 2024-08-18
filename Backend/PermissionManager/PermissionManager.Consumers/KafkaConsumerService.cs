@@ -1,5 +1,5 @@
 ﻿using Confluent.Kafka;
-
+using PermissionManager.Core.Data.UnitOfWork.Interfaces;
 using PermissionManager.Core.Interfaces;
 using PermissionManager.Shared;
 using PermissionManager.Shared.Models;
@@ -16,12 +16,12 @@ namespace PermissionManager.Consumers
     public class KafkaConsumerService : IKafkaConsumerService
     {
         private readonly ILogger<KafkaConsumerService> _logger;
-        private readonly IElasticSearchService _elasticSearchService;
+        private readonly IQueryPermissionUnitOfWork _elasticSearchService;
         private readonly IConfiguration _configuration;
 
         public KafkaConsumerService(
             ILogger<KafkaConsumerService> logger,
-            IElasticSearchService elasticSearchService,
+            IQueryPermissionUnitOfWork elasticSearchService,
             IConfiguration configuration)
         {
             _logger = logger;
@@ -73,15 +73,15 @@ namespace PermissionManager.Consumers
             switch (permissionEvent.OperationType)
             {
                 case "Create":
-                    await _elasticSearchService.IndexPermissionAsync(permissionEvent.EventData);
+                    await _elasticSearchService.Permissions.CreateOrUpdateAsync(permissionEvent.EventData);
                     _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been created in Elasticsearch.");
                     break;
                 case "Update":
-                    await _elasticSearchService.IndexPermissionAsync(permissionEvent.EventData);
+                    await _elasticSearchService.Permissions.CreateOrUpdateAsync(permissionEvent.EventData);
                     _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been updated in Elasticsearch.");
                     break;
                 case "Delete":
-                    await _elasticSearchService.DeletePermissionAsync(permissionEvent.EventData);
+                    await _elasticSearchService.Permissions.DeleteAsync(permissionEvent.EventData);
                     _logger.LogInformation($"Permission with ID {permissionEvent.EventData.Id} has been deleted from Elasticsearch.");
                     break;
             }

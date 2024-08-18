@@ -1,11 +1,13 @@
 ﻿using AutoMapper.Configuration.Annotations;
 
 using Elastic.Clients.Elasticsearch;
-
+using Elastic.Clients.Elasticsearch.Nodes;
+using Elastic.Clients.Elasticsearch.QueryDsl;
 using Microsoft.Extensions.Logging;
 
 using PermissionManager.Core.Data.Repositories.Interfaces;
 using PermissionManager.Core.Services.Dtos;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace PermissionManager.Core.Data.Repositories
 {
@@ -15,14 +17,19 @@ namespace PermissionManager.Core.Data.Repositories
         {
         }
 
-        public Task<PermissionDto?> GetByIWithTypesdAsync(int id)
+        public async Task<Permission?> GetByIWithTypesdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await GetById(id);
         }
 
-        public Task<IEnumerable<PermissionDto>> GetPermissionTypesWithPermissionsAsync()
+        public async Task<IEnumerable<Permission>> GetPermissionTypesWithPermissionsAsync()
         {
-            throw new NotImplementedException();
+            var response = await _client.SearchAsync<Permission>(e=>e.Index(IndexName));
+            if (response.IsSuccess())
+            {
+                return response.Documents;
+            }
+            return null;
         }
     }
 }

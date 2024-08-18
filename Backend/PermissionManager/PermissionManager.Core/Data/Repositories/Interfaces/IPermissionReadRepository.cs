@@ -10,7 +10,7 @@ namespace PermissionManager.Core.Data.Repositories.Interfaces
 {
     public interface IPermissionReadRepository : IRepositoryRead<Permission>
     {
-        Task<PermissionDto?> GetByIWithTypesdAsync(int id);
-        Task<IEnumerable<PermissionDto>> GetPermissionTypesWithPermissionsAsync();
+        Task<Permission?> GetByIWithTypesdAsync(int id);
+        Task<IEnumerable<Permission>> GetPermissionTypesWithPermissionsAsync();
     }
 }
