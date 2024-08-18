@@ -19,7 +19,17 @@ namespace PermissionManager.Core.Data.Repositories
 
         public async Task<Permission?> GetByIWithTypesdAsync(int id)
         {
-            return await GetById(id);
+            var permision= await GetById(id);
+            if(permision == null)
+            {
+                return null;
+            }
+            var permisionType = await _client.GetAsync<PermissionType>(permision.PermissionType, idx => idx.Index(nameof(PermissionType).ToLower()));
+            if (permisionType.IsValidResponse)
+            {
+                permision.PermissionType = permisionType.Source;
+            }
+            return permision;
         }
 
         public async Task<IEnumerable<Permission>> GetPermissionTypesWithPermissionsAsync()

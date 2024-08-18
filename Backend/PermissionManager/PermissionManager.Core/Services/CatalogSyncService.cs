@@ -11,7 +11,7 @@ namespace PermissionManager.Core.Services
     {
         private readonly ILogger<CatalogSyncService> _logger;
         private readonly IServiceProvider _serviceProvider;
-        private readonly TimeSpan _syncInterval = TimeSpan.FromHours(2);
+        private readonly TimeSpan _syncInterval = TimeSpan.FromMinutes(2);
 
         public CatalogSyncService(ILogger<CatalogSyncService> logger, IServiceProvider serviceProvider)
         {

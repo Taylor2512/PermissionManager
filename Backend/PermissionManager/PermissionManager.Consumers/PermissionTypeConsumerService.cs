@@ -26,7 +26,7 @@ namespace PermissionManager.Consumers
             var config = GetKafkaConsumerConfig();
 
             using var consumer = new ConsumerBuilder<Ignore, string>(config).Build();
-            consumer.Subscribe(nameof(Permission));
+            consumer.Subscribe(nameof(PermissionType));
 
             while (!stoppingToken.IsCancellationRequested)
             {

@@ -86,8 +86,8 @@ function Permissions() {
                     </div>
                     <DataTable value={permissions}>
                         <Column field="id" header="ID"></Column>
-                        <Column field="firstName" header="First Name"></Column>
-                        <Column field="lastName" header="Last Name"></Column>
+                        <Column field="employeeForename" header="First Name"></Column>
+                        <Column field="employeeSurname" header="Last Name"></Column>
                         <Column field="permissionTypeName" header="Permission Name"></Column>
                         <Column header="Actions" body={actionsTemplate}></Column>
                     </DataTable>

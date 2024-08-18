@@ -1,0 +1,20 @@
+version: '3'
+services:
+  frontend-permission-manager:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:80"
+    # volumes:
+    #   - .:/app
+    #   - /app/node_modules
+    # command: npm run preview
+    environment:
+      - VITE_API_URL=http://permission-manager-api:7130
+
+networks:
+  distrib-api-net:
+     external: true
+  
+            

@@ -13,7 +13,7 @@ namespace PermissionManager.Consumers
         {
             using (var scope = serviceProvider.CreateScope())
             {
-                var kafkaConsumerService = scope.ServiceProvider.GetRequiredService<IPermissionConsumerService>();
+                var kafkaConsumerService = scope.ServiceProvider.GetRequiredService<IPermissionTypeConsumerService>();
                 await kafkaConsumerService.ProcessMessagesAsync(stoppingToken);
             }
         }

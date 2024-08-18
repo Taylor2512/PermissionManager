@@ -3,8 +3,8 @@ import api from '../../services/api';
 import { AutoComplete } from 'primereact/autocomplete';
 
 const initialPermissionInfo = {
-    firstName: '',
-    lastName: '',
+    employeeForename: '',
+    employeeSurname: '',
     permissionTypeId: ''
 };
 
@@ -25,8 +25,8 @@ function EditPermission({ Id, setPermissionEdited }) {
             if (response) {
                 const permission = response.data;
                 setPermissionInfo({
-                    firstName: permission.firstName,
-                    lastName: permission.lastName,
+                    employeeForename: permission.employeeForename,
+                    employeeSurname: permission.employeeSurname,
                     permissionTypeId: permission.permissionType?.id || ''
                 });
                 setPermissionTypeId(permission.permissionType?.name || '');
@@ -77,8 +77,8 @@ function EditPermission({ Id, setPermissionEdited }) {
                                 type='text'
                                 className='form-control'
                                 placeholder='Enter First Name'
-                                value={permissionInfo.firstName}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, firstName: e.target.value })}
+                                value={permissionInfo.employeeForename}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, employeeForename: e.target.value })}
                                 style={{ margin: '10px' }}
                             />
                         </p>
@@ -90,8 +90,8 @@ function EditPermission({ Id, setPermissionEdited }) {
                                 type='text'
                                 className='form-control'
                                 placeholder='Enter Last Name'
-                                value={permissionInfo.lastName}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, lastName: e.target.value })}
+                                value={permissionInfo.employeeSurname}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, employeeSurname: e.target.value })}
                                 style={{ margin: '10px' }}
                             />
                         </p>

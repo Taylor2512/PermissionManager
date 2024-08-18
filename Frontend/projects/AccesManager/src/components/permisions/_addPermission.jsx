@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import api from '../../services/api';
 import { AutoComplete } from 'primereact/autocomplete';        
 const initialPermissionInfo = {
-    FirstName: '',
-    LastName: '',
+    EmployeeForename: '',
+    EmployeeSurname: '',
     PermissionTypeId: '',
 }
 
@@ -54,8 +54,8 @@ function AddPermission(props) {
                                 type='text'
                                 className='form-control'
                                 placeholder='Enter Full Name'
-                                value={permissionInfo.FirstName}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, FirstName: e.target.value })}
+                                value={permissionInfo.EmployeeForename}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, EmployeeForename: e.target.value })}
                                 style={{ margin: '10px' }}
                             />
                         </p>
@@ -67,8 +67,8 @@ function AddPermission(props) {
                                 type='text'
                                 className='form-control'
                                 placeholder='Enter Full Name'
-                                value={permissionInfo.LastName}
-                                onChange={e => setPermissionInfo({ ...permissionInfo, LastName: e.target.value })}
+                                value={permissionInfo.EmployeeSurname}
+                                onChange={e => setPermissionInfo({ ...permissionInfo, EmployeeSurname: e.target.value })}
                                 style={{ margin: '10px' }}
                             />
                         </p>
